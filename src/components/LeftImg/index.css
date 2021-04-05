@@ -1,0 +1,47 @@
+.container-img{
+    background-color: white;
+    height: 75vh;
+    border-radius: 20px 0px 0px 20px;
+    display: flex;
+    align-items: center;
+}
+.container-img img.woman{
+    height: 70%;
+}
+
+
+.container-img .box {
+    width: 150px;
+    position: absolute;
+    margin-top: 60px;
+}
+
+@media screen and (max-width: 998px) {
+    .container-img {
+        height: 75vh;
+    }
+    .container-img img.woman{
+        height: 65%;
+    }
+}
+
+@media screen and (max-width: 870px){
+    .container-img {
+        height: 70vh;
+    }
+    .container-img img.woman{
+        height: 60%;
+    }
+}
+
+@media screen and (max-width: 770px){
+    .container-img{
+        height: 0px;
+       
+        margin:  50px 0px 10px 0px;
+
+        z-index: 1;
+    }
+    
+   
+}
